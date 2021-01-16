@@ -1,7 +1,6 @@
 const API_KEY = process.env.REACT_APP_API_KEY
-let requests = ''
 // eslint-disable-next-line
-export default requests = {
+export default {
   fechTrending: `/trending/all/day?api_key=${API_KEY}`,
   fetchTopRated: `/movie/top_rated?api_key=${API_KEY}`,
   fetchActionMovies: `/discover/movie?api_key=${API_KEY}&with_genres=28`,
